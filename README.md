@@ -24,13 +24,11 @@
 
 * ```
   polylines(frame, [pts], True. (0,0,255))  # 绘制以pts为点坐标的矩形
-  
+
   fillPoy(frame, [pts], (255, 255, 255))  # 绘制以pts的封闭矩形填充
-  
+
   putText(frame, " Message txt", (x, y),  cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (55, 255, 155), 1)  # 在xy坐标以字体cv2...SMALL 绘制文字 Message txt
   ```
-
-
 
 ## 插件架构
 
